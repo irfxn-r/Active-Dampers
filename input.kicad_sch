@@ -2663,7 +2663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 242.57 87.63 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 219.71 87.63 0)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -4104,7 +4104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -4344,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -4584,7 +4584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 246.38 87.63 0)
 			(effects
 				(font
@@ -4890,7 +4890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 208.28 87.63 0)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -6455,7 +6455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 72.39 85.09 0)
 			(effects
 				(font
@@ -6696,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 80.01 85.09 0)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 170.18 78.74 0)
 			(effects
 				(font
@@ -7085,7 +7085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 250.19 87.63 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -7632,7 +7632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 215.9 87.63 0)
 			(effects
 				(font
