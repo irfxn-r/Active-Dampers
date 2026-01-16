@@ -1,4 +1,4 @@
-47784686171943139
+47788223232745885
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -156275,6 +156275,13 @@ SparkFun display OLED
 28
 28
 PCM_SparkFun-Display
+OLED_0.96
+
+
+0
+4
+4
+PCM_SparkFun-Display
 OLED_1.3in_128x64-Folded
 
 SparkFun OLED 1.3" 128 x 64
@@ -156295,6 +156302,13 @@ SparkFun OLED 1.5" 128 x 128
 0
 26
 26
+PCM_SparkFun-Display
+Untitled
+
+
+0
+4
+4
 PCM_SparkFun-Display
 ePaper_2.13in
 24 Pin FPC 0.5mm with contacts both sides.

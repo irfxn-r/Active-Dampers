@@ -1694,7 +1694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "261010e1-2087-48d4-bce4-b059f7408d22")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 133.35 115.57 90)
 			(effects
 				(font
@@ -1828,7 +1828,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1844,7 +1844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40ab6554-79cd-45d8-bd5d-8d04a657155a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR050"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -1895,7 +1895,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "#PWR06")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c741d14-fe80-489d-80a8-72c3b5b5d341")
-		(property "Reference" "C19"
+		(property "Reference" "C31"
 			(at 150.114 102.108 90)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "C19")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2105,7 +2105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df24776-e967-43b9-9bd9-e654aecf5435")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 193.04 127 0)
 			(effects
 				(font
@@ -2156,7 +2156,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62cdc163-4683-491c-abd1-6026a81cdb44")
-		(property "Reference" "U8"
+		(property "Reference" "U12"
 			(at 148.1933 96.52 0)
 			(effects
 				(font
@@ -2244,7 +2244,7 @@
 		(instances
 			(project ""
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "U8")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2259,7 +2259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91dc5138-f137-4c2e-ab02-ff27c0625538")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR049"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -2309,7 +2309,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "#PWR07")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e9384fa-ba18-4b41-8658-2b8b7ca34d1d")
-		(property "Reference" "R16"
+		(property "Reference" "R10"
 			(at 162.56 102.8699 0)
 			(effects
 				(font
@@ -2397,6 +2397,78 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quiescent Current (Iq)" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "967f9465-1153-4a1a-9d5f-23904f3bffe1")
 		)
@@ -2406,7 +2478,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "R16")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f44ddec6-2018-4285-aac1-75ad031dd094")
-		(property "Reference" "J1"
+		(property "Reference" "J9"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -2476,7 +2548,7 @@
 		(instances
 			(project ""
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "J1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f80216f1-adf9-4434-aa09-78e89661189d")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -2599,7 +2671,7 @@
 		(instances
 			(project "Active-Dampers"
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d/6235bd46-da8c-4baa-a7eb-9b733807c583"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
