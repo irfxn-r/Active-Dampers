@@ -2913,6 +2913,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2d4a80b-ed9c-494b-b842-0991b687d3de")
 		)
@@ -3514,6 +3523,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc7f54df-8e4e-4025-a2a8-eedcf972f8a9")
 		)
@@ -3755,6 +3773,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6372a71a-3be5-47c6-9069-9c0d9709075b")
 		)
@@ -3775,7 +3802,7 @@
 		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2ff4e1bc-a1cd-4f4f-b43c-cc403e39c853")
@@ -4354,6 +4381,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C57112"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f50ac023-3f81-40f1-bf27-3622771e6098")
 		)
@@ -4594,6 +4630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c4924bc-20c1-402f-bc3b-fb6171313a89")
 		)
@@ -4827,6 +4872,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 246.38 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,6 +5194,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 208.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a923cc7-082a-462a-b07e-9c1a812d4916")
 		)
@@ -5160,7 +5223,7 @@
 		(at 161.29 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d0fa1ac-ab53-49e3-8059-5df21ae2d9c8")
@@ -5515,6 +5578,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77f812b5-aa4c-470c-9d02-7f94264c65da")
 		)
@@ -5647,6 +5719,15 @@
 			)
 		)
 		(property "Voltage - Forward(Vf@If)" ""
+			(at 231.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6186"
 			(at 231.14 78.74 0)
 			(effects
 				(font
@@ -5964,6 +6045,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72b73b9a-90ca-4f97-958c-158a85334874")
 		)
@@ -6198,6 +6288,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 88.9 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21122"
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,6 +6822,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5fece210-1f9d-4530-91d8-8b21d6b5bdaf")
 		)
@@ -6964,6 +7072,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a01887e-9ae8-4eda-be88-72c06050115e")
 		)
@@ -7123,6 +7240,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
 			(at 170.18 90.17 0)
 			(effects
 				(font
@@ -7364,6 +7490,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 250.19 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,6 +7813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb42c105-665a-436c-ae81-d24a034fa86c")
 		)
@@ -7911,6 +8055,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 215.9 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5985,6 +5985,18 @@
 		(uuid "3dd1f645-d56b-40c8-9242-7fc8ef9bc775")
 	)
 	(junction
+		(at 121.92 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e45fb6a-a5c9-45ce-a56a-8feca385b1bf")
+	)
+	(junction
+		(at 124.46 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49bdab40-00ff-49c9-b0d1-dba4a995e605")
+	)
+	(junction
 		(at 31.75 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6221,6 +6233,26 @@
 			(type default)
 		)
 		(uuid "0a3778ee-1d69-4413-b9a4-814ed8cb9d14")
+	)
+	(wire
+		(pts
+			(xy 127 172.72) (xy 121.92 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c879bb6-6b03-460d-81b6-75d68ffd4a25")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2cd1c9-555f-4256-9fb4-a97cbf7b7400")
 	)
 	(wire
 		(pts
@@ -6461,6 +6493,16 @@
 			(type default)
 		)
 		(uuid "33ee12a9-597f-425a-8e1a-3bd65275c845")
+	)
+	(wire
+		(pts
+			(xy 124.46 180.34) (xy 127 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354f0c96-3928-47ed-ae6c-6fdd01f54374")
 	)
 	(wire
 		(pts
@@ -6714,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 180.34) (xy 127 180.34)
+			(xy 121.92 180.34) (xy 124.46 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7274,6 +7316,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 105.41) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68f1ae8-461b-43d2-a48d-bce6b9b87889")
+	)
+	(wire
+		(pts
 			(xy 95.25 83.82) (xy 95.25 85.09)
 		)
 		(stroke
@@ -7304,7 +7356,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 182.88 96.52)
+			(xy 123.19 125.73) (xy 128.27 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7394,7 +7446,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 182.88 99.06)
+			(xy 123.19 123.19) (xy 128.27 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7501,6 +7553,16 @@
 			(type default)
 		)
 		(uuid "c4ac847b-c36f-4ced-ab49-01f77e51e185")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78ef90d-6d3b-46c2-be30-da4481ffdccd")
 	)
 	(wire
 		(pts
@@ -7864,6 +7926,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 182.88) (xy 124.46 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b563f-fda3-483d-82fa-eb46bcd4e6d6")
+	)
+	(wire
+		(pts
 			(xy 166.37 92.71) (xy 161.29 92.71)
 		)
 		(stroke
@@ -7871,6 +7943,16 @@
 			(type default)
 		)
 		(uuid "f5f7ad9f-c859-4600-ae64-6e47b0b62cf8")
+	)
+	(wire
+		(pts
+			(xy 121.92 172.72) (xy 121.92 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f780bf8d-88c5-4113-b830-8e5331f5f09e")
 	)
 	(wire
 		(pts
@@ -7901,6 +7983,16 @@
 			(type default)
 		)
 		(uuid "f9ff5dd3-5c99-4734-883d-1be2d7563943")
+	)
+	(wire
+		(pts
+			(xy 124.46 182.88) (xy 124.46 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb073a6e-d8dc-43bd-8511-ff38699e81b6")
 	)
 	(wire
 		(pts
@@ -8122,6 +8214,16 @@
 		)
 		(uuid "27f0bc0f-1571-455e-9ee7-4ff681518111")
 	)
+	(label "IMU_INT"
+		(at 124.46 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29b9ec5c-a1bc-46f2-baa7-7cb6de084dfb")
+	)
 	(label "SWDIO/TMS"
 		(at 166.37 95.25 0)
 		(effects
@@ -8322,6 +8424,16 @@
 		)
 		(uuid "5777bfd5-3775-466c-b3c3-10e207f4ace4")
 	)
+	(label "SCL"
+		(at 124.46 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a31d93b-3a30-4373-a728-9b81a00ffc4b")
+	)
 	(label "AOUT1_RL"
 		(at 30.48 137.16 0)
 		(effects
@@ -8423,12 +8535,12 @@
 		(uuid "7a98b666-0bf7-4438-b7ff-f580dbeb18e6")
 	)
 	(label "BIN2_FR"
-		(at 187.96 99.06 0)
+		(at 123.19 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "83e8ee62-7e34-4fac-a3de-85b5be6107c4")
 	)
@@ -8722,6 +8834,16 @@
 		)
 		(uuid "d12433f3-2802-49a3-909e-d0f6b300c441")
 	)
+	(label "SDA"
+		(at 124.46 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1705c11-28cf-4594-9c04-57831e7bf2a6")
+	)
 	(label "BOUT1_FL"
 		(at 30.48 116.84 0)
 		(effects
@@ -8843,12 +8965,12 @@
 		(uuid "e7b77a27-6322-4011-a7ef-8e8529176fff")
 	)
 	(label "AIN2_FR"
-		(at 187.96 96.52 0)
+		(at 123.19 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e89e6fa2-8366-4594-8622-3019d1e6aef3")
 	)
@@ -8973,7 +9095,7 @@
 		(at 20.32 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9118,6 +9240,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VLMB1500-GS08"
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 72.39 166.37 0)
 			(effects
 				(font
@@ -9282,6 +9413,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCASU105SB5104MFNA01"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -9559,6 +9699,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 88.9 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 88.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,6 +10587,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 29.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B4"
 			(uuid "72821dc8-da0e-4f33-b05f-908379365752")
 		)
@@ -10503,7 +10661,7 @@
 		(at 80.01 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10526,7 +10684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual_Parts:CNC_3220-10-0300-00"
+		(property "Footprint" "SamacSys_Parts:62701021621"
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -10553,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CNC_3220-10-0300-00"
+		(property "Manufacturer_Part_Number" ""
 			(at 80.01 31.75 0)
 			(effects
 				(font
@@ -10900,6 +11058,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb5eb066-dbdc-4ec2-ba48-be47572adbab")
 		)
@@ -11037,6 +11204,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C131079"
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "ad72198a-5c88-450e-a4c1-45cb8bf74f44")
 		)
@@ -11092,6 +11268,73 @@
 			(project ""
 				(path "/81892b73-0b2d-4185-94d6-5966c81d614d"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c7fdbd7-8ac3-492f-8efb-cbd1adcc3035")
+		(property "Reference" "#PWR025"
+			(at 144.78 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5cfe58-9829-400f-b534-81e300ccfa44")
+		)
+		(instances
+			(project "Active-Dampers"
+				(path "/81892b73-0b2d-4185-94d6-5966c81d614d"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11173,6 +11416,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A106MP5NUNC"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -11350,6 +11602,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7ae9dbe-8402-4144-b18e-1877877138bf")
 		)
@@ -11370,7 +11631,7 @@
 		(at 20.32 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12083,7 +12344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 121.412 166.37 90)
 			(effects
 				(font
@@ -12092,7 +12353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 166.37 0)
 			(effects
 				(font
@@ -12202,6 +12463,15 @@
 		)
 		(property "SnapEDA_Link" ""
 			(at 123.19 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 123.19 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,6 +12855,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4e24f73-6fdf-4928-ab6a-1e0b10746685")
 		)
@@ -12873,7 +13152,7 @@
 		(at 45.72 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13017,6 +13296,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CR0402-FX-5101GLF"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22975"
 			(at 91.44 153.67 0)
 			(effects
 				(font
@@ -13193,6 +13481,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8d033ae-8b78-4065-9a7e-5e5d5827e39d")
 		)
@@ -13282,6 +13579,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A106MP5NUNC"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 146.05 45.72 0)
 			(effects
 				(font
@@ -13381,6 +13687,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCASU105SB5104MFNA01"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1653"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -13686,6 +14001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 82.55 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92d91c26-d6c6-47d2-8123-8c8ed56044b1")
 		)
@@ -13844,6 +14168,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCASU105SB5104MFNA01"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1653"
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -14091,6 +14424,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 165.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "520b2a55-5de9-42ff-8b7f-b1f4ae517cd8")
 		)
@@ -14182,6 +14524,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A106MP5NUNC"
+			(at 165.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1604"
 			(at 165.1 180.34 0)
 			(effects
 				(font
@@ -14476,7 +14827,7 @@
 		(at 20.32 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14896,6 +15247,15 @@
 			)
 		)
 		(property "Description" "Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131079"
 			(at 222.25 77.47 0)
 			(effects
 				(font
@@ -15810,6 +16170,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 252.73 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bee204d5-9162-4903-9459-c4efb84ecff1")
 		)
@@ -16186,6 +16555,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81696bdd-8559-48d9-a364-d8d526f4e187")
 		)
@@ -16248,6 +16626,15 @@
 			)
 		)
 		(property "Description" "Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16"
+			(at 222.25 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131079"
 			(at 222.25 160.02 0)
 			(effects
 				(font
@@ -16601,7 +16988,7 @@
 		(at 24.13 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16673,7 +17060,7 @@
 		(at 20.32 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17025,6 +17412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d98b9b97-4bab-4ff1-983d-b23b9aa82111")
 		)
@@ -17247,6 +17643,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CR0402AFX-1001GAS"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23138"
 			(at 72.39 153.67 0)
 			(effects
 				(font
@@ -17666,6 +18071,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84e6475e-16e2-4c66-8fae-4387781aa144")
 		)
@@ -17738,6 +18152,15 @@
 		)
 		(property "PROD_ID" "IC-10756"
 			(at 144.78 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24112"
+			(at 144.78 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17852,7 +18275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
 			(at 123.952 163.83 90)
 			(effects
 				(font
@@ -17861,7 +18284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 125.73 163.83 0)
 			(effects
 				(font
@@ -17971,6 +18394,15 @@
 		)
 		(property "SnapEDA_Link" ""
 			(at 125.73 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 125.73 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18133,6 +18565,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05A106MP5NUNC"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96446"
 			(at 146.05 31.75 0)
 			(effects
 				(font
@@ -18305,6 +18746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a673cb37-e732-4936-ab87-c4b01db6b5e1")
 		)
@@ -18468,6 +18918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23228"
+			(at 82.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73b88674-0966-40e4-a097-f94dd816cdaf")
 		)
@@ -18565,6 +19024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 91.44 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e67b9041-6947-453a-a77a-384bb3056ed2")
 		)
@@ -18627,6 +19095,15 @@
 			)
 		)
 		(property "Description" "Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131079"
 			(at 222.25 118.11 0)
 			(effects
 				(font
@@ -18973,6 +19450,15 @@
 		)
 		(property "Voltage - Forward(Vf@If)" ""
 			(at 48.26 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
