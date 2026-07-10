@@ -8477,7 +8477,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25079"
 			(at 66.04 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9420,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25079"
 			(at 74.93 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14911,15 +14911,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15134"
-			(at 103.7433 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "69566376-7366-4542-8c42-dc3eb6cc1c4b")
 		)
@@ -15681,7 +15672,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C25079"
 			(at 54.61 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18016,15 +18007,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC" "C15127"
-			(at 157.48 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"

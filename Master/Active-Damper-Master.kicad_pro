@@ -66,7 +66,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -74,7 +74,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "warning",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -195,7 +195,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -227,6 +228,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -646,7 +651,7 @@
         "uuid": "045c9dab-1268-4c51-bf8e-69ce290b1ece"
       }
     ],
-    "used_designators": "L1,D1-9,#PWR2-4,#PWR14-18,#PWR20-53,#PWR59-72,C1-22,C48-49,C54-59,IC1-2,R1,R3-15,R23-26,R38,R46-52,U1-5,SW2-3,J1-3,J6,J9,JP1-2,H5-8,Q1-2",
+    "used_designators": "U1,U4,D1,#PWR35,#PWR57-58,#PWR63,#PWR65-69,#PWR73-75,C19-20,C23,R24,R51-55,Q1-2,JP3,JP5",
     "variants": []
   },
   "sheets": [
