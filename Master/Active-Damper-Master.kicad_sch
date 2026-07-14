@@ -14913,11 +14913,13 @@
 		)
 		(property "LCSC" "C15134"
 			(at 103.7433 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "10"
@@ -18020,11 +18022,13 @@
 		)
 		(property "LCSC" "C15127"
 			(at 157.48 43.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
