@@ -65,7 +65,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -660,7 +660,7 @@
       "Root"
     ],
     [
-      "9dae5795-2e76-48d9-b2a5-a3918cc8a75e",
+      "741a6754-9091-47d2-98f2-bac881c471dd",
       "Input Filtering"
     ]
   ],
