@@ -6117,10 +6117,6 @@
 		(uuid "1a1c2393-81fb-4982-81fd-516f931654ec")
 	)
 	(no_connect
-		(at 185.42 116.84)
-		(uuid "2bc2802d-8755-426b-9a61-83f93b380c12")
-	)
-	(no_connect
 		(at 92.71 135.89)
 		(uuid "3cb61e27-2b15-49a8-9b94-cc9a3ca644ff")
 	)
@@ -6554,16 +6550,6 @@
 			(type default)
 		)
 		(uuid "441595ce-4384-4ccc-a9a2-d957ef0da441")
-	)
-	(wire
-		(pts
-			(xy 22.86 49.53) (xy 22.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc35631-e72b-4820-b5d2-1d8683ba6752")
 	)
 	(wire
 		(pts
@@ -7547,6 +7533,16 @@
 			(type default)
 		)
 		(uuid "e0252469-67b6-4eda-a9dd-ae1feb1d619f")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 22.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e479a668-6ac6-4aa7-a0ab-608c2f6c65be")
 	)
 	(wire
 		(pts
@@ -60472,7 +60468,7 @@
 			(justify left bottom)
 		)
 		(uuid "474ef0bc-f5b5-49de-ac34-b1b57be94830")
-		(property "Netclass" "CAN"
+		(property "Net Class" "CAN"
 			(at 210.82 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60497,7 +60493,7 @@
 			(justify left bottom)
 		)
 		(uuid "5a32a6a0-0174-4d46-aa74-b8cb39479857")
-		(property "Netclass" "CAN"
+		(property "Net Class" "CAN"
 			(at 209.55 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60613,7 +60609,7 @@
 			(justify right bottom)
 		)
 		(uuid "86670f8e-671d-472b-b417-d6516c4503ad")
-		(property "Netclass" "CAN"
+		(property "Net Class" "CAN"
 			(at 234.95 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60699,7 +60695,7 @@
 			(justify right bottom)
 		)
 		(uuid "c310c9c9-74e2-4bf2-9572-15977e477430")
-		(property "Netclass" "CAN"
+		(property "Net Class" "CAN"
 			(at 234.95 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60827,6 +60823,88 @@
 			(project "imu_daughter_board"
 				(path "/6be3c0d3-4a91-4db5-bca9-cbf66493484f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a1c222-6926-43b9-986c-6e49161d013d")
+		(property "Reference" "R1"
+			(at 25.4 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 25.4 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 21.082 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a0b91ef-fab0-417f-83aa-f5f051d1284f")
+		)
+		(pin "2"
+			(uuid "da515ff5-9f01-4073-b520-62b737de12e4")
+		)
+		(instances
+			(project "imu_daughter_board"
+				(path "/6be3c0d3-4a91-4db5-bca9-cbf66493484f"
+					(reference "R1")
 					(unit 1)
 				)
 			)
